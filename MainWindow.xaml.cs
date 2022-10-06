@@ -25,95 +25,15 @@ namespace Wpf_Cherednichenko_PR3_MultiEdit
             InitializeComponent();
         }
 
-
-        private void tb1_TextChanged(object sender, TextChangedEventArgs e)
-        {
-            (sender as FrameworkElement).Style = (Style)Resources["style1"];
-        }
         private void tb1_LostFocus(object sender, RoutedEventArgs e)
         {
             (sender as FrameworkElement).Style = (Style)Resources["style2"];
         }
 
-        private void tb2_TextChanged(object sender, TextChangedEventArgs e)
+        private void tb1_SelectionChanged(object sender, RoutedEventArgs e)
         {
             (sender as FrameworkElement).Style = (Style)Resources["style1"];
-        }
-        private void tb2_LostFocus(object sender, RoutedEventArgs e)
-        {
-            (sender as FrameworkElement).Style = (Style)Resources["style2"];
         }
 
-        private void tb3_TextChanged(object sender, TextChangedEventArgs e)
-        {
-            (sender as FrameworkElement).Style = (Style)Resources["style1"];
-        }
-        private void tb3_LostFocus(object sender, RoutedEventArgs e)
-        {
-            (sender as FrameworkElement).Style = (Style)Resources["style2"];
-        }
-
-        private void tb4_TextChanged(object sender, TextChangedEventArgs e)
-        {
-            (sender as FrameworkElement).Style = (Style)Resources["style1"];
-        }
-        private void tb4_LostFocus(object sender, RoutedEventArgs e)
-        {
-            (sender as FrameworkElement).Style = (Style)Resources["style2"];
-        }
-
-        private void tb5_TextChanged(object sender, TextChangedEventArgs e)
-        {
-            (sender as FrameworkElement).Style = (Style)Resources["style1"];
-        }
-        private void tb5_LostFocus(object sender, RoutedEventArgs e)
-        {
-            (sender as FrameworkElement).Style = (Style)Resources["style2"];
-        }
-
-        private void tb6_TextChanged(object sender, TextChangedEventArgs e)
-        {
-            (sender as FrameworkElement).Style = (Style)Resources["style1"];
-        }
-        private void tb6_LostFocus(object sender, RoutedEventArgs e)
-        {
-            (sender as FrameworkElement).Style = (Style)Resources["style2"];
-        }
-
-        private void tb7_TextChanged(object sender, TextChangedEventArgs e)
-        {
-            (sender as FrameworkElement).Style = (Style)Resources["style1"];
-        }
-        private void tb7_LostFocus(object sender, RoutedEventArgs e)
-        {
-            (sender as FrameworkElement).Style = (Style)Resources["style2"];
-        }
-
-        private void tb8_TextChanged(object sender, TextChangedEventArgs e)
-        {
-            (sender as FrameworkElement).Style = (Style)Resources["style1"];
-        }
-        private void tb8_LostFocus(object sender, RoutedEventArgs e)
-        {
-            (sender as FrameworkElement).Style = (Style)Resources["style2"];
-        }
-
-        private void tb9_TextChanged(object sender, TextChangedEventArgs e)
-        {
-            (sender as FrameworkElement).Style = (Style)Resources["style1"];
-        }
-        private void tb9_LostFocus(object sender, RoutedEventArgs e)
-        {
-            (sender as FrameworkElement).Style = (Style)Resources["style2"];
-        }
-
-        private void tb10_TextChanged(object sender, TextChangedEventArgs e)
-        {
-            (sender as FrameworkElement).Style = (Style)Resources["style1"];
-        }
-        private void tb10_LostFocus(object sender, RoutedEventArgs e)
-        {
-            (sender as FrameworkElement).Style = (Style)Resources["style2"];
-        }
     }
 }

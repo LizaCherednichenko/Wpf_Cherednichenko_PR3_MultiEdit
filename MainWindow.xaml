@@ -29,17 +29,17 @@
             <ColumnDefinition Width="1*"/>
         </Grid.ColumnDefinitions>
 
-        <TextBox x:Name="tb1" HorizontalAlignment="Left" Margin="75,40,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Style="{StaticResource style1}" Grid.Column="0" TextChanged="tb1_TextChanged" LostFocus="tb1_LostFocus"/>
-        <TextBox x:Name="tb2" HorizontalAlignment="Left" Margin="75,110,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Style="{StaticResource style2}" Grid.Column="0" TextChanged="tb2_TextChanged" LostFocus="tb2_LostFocus"/>
-        <TextBox x:Name="tb3" HorizontalAlignment="Left" Margin="75,180,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Style="{StaticResource style2}" Grid.Column="0" TextChanged="tb3_TextChanged" LostFocus="tb3_LostFocus"/>
-        <TextBox x:Name="tb4" HorizontalAlignment="Left" Margin="75,250,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Style="{StaticResource style2}" Grid.Column="0" TextChanged="tb4_TextChanged" LostFocus="tb4_LostFocus"/>
-        <TextBox x:Name="tb5" HorizontalAlignment="Left" Margin="75,320,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Style="{StaticResource style2}" Grid.Column="0" TextChanged="tb5_TextChanged" LostFocus="tb5_LostFocus"/>
+        <TextBox x:Name="tb1" HorizontalAlignment="Left" Margin="75,40,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Style="{StaticResource style2}" Grid.Column="0" LostFocus="tb1_LostFocus" SelectionChanged="tb1_SelectionChanged"/>
+        <TextBox x:Name="tb2" HorizontalAlignment="Left" Margin="75,110,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Style="{StaticResource style2}" Grid.Column="0" LostFocus="tb1_LostFocus" SelectionChanged="tb1_SelectionChanged"/>
+        <TextBox x:Name="tb3" HorizontalAlignment="Left" Margin="75,180,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Style="{StaticResource style2}" Grid.Column="0" LostFocus="tb1_LostFocus" SelectionChanged="tb1_SelectionChanged"/>
+        <TextBox x:Name="tb4" HorizontalAlignment="Left" Margin="75,250,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Style="{StaticResource style2}" Grid.Column="0" LostFocus="tb1_LostFocus" SelectionChanged="tb1_SelectionChanged"/>
+        <TextBox x:Name="tb5" HorizontalAlignment="Left" Margin="75,320,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Style="{StaticResource style2}" Grid.Column="0" LostFocus="tb1_LostFocus" SelectionChanged="tb1_SelectionChanged"/>
 
-        <TextBox x:Name="tb6" HorizontalAlignment="Left" Margin="75,40,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Style="{StaticResource style1}" Grid.Column="1" TextChanged="tb6_TextChanged" LostFocus="tb6_LostFocus"/>
-        <TextBox x:Name="tb7" HorizontalAlignment="Left" Margin="75,110,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Style="{StaticResource style2}" Grid.Column="1" TextChanged="tb7_TextChanged" LostFocus="tb7_LostFocus"/>
-        <TextBox x:Name="tb8" HorizontalAlignment="Left" Margin="75,180,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Style="{StaticResource style2}" Grid.Column="1" TextChanged="tb8_TextChanged" LostFocus="tb8_LostFocus"/>
-        <TextBox x:Name="tb9" HorizontalAlignment="Left" Margin="75,250,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Style="{StaticResource style2}" Grid.Column="1" TextChanged="tb9_TextChanged" LostFocus="tb9_LostFocus"/>
-        <TextBox x:Name="tb10" HorizontalAlignment="Left" Margin="75,320,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Style="{StaticResource style2}" Grid.Column="1" TextChanged="tb10_TextChanged" LostFocus="tb10_LostFocus"/>
+        <TextBox x:Name="tb6" HorizontalAlignment="Left" Margin="75,40,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Style="{StaticResource style2}" Grid.Column="1" LostFocus="tb1_LostFocus" SelectionChanged="tb1_SelectionChanged"/>
+        <TextBox x:Name="tb7" HorizontalAlignment="Left" Margin="75,110,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Style="{StaticResource style2}" Grid.Column="1" LostFocus="tb1_LostFocus" SelectionChanged="tb1_SelectionChanged"/>
+        <TextBox x:Name="tb8" HorizontalAlignment="Left" Margin="75,180,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Style="{StaticResource style2}" Grid.Column="1" LostFocus="tb1_LostFocus" SelectionChanged="tb1_SelectionChanged"/>
+        <TextBox x:Name="tb9" HorizontalAlignment="Left" Margin="75,250,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Style="{StaticResource style2}" Grid.Column="1" LostFocus="tb1_LostFocus" SelectionChanged="tb1_SelectionChanged"/>
+        <TextBox x:Name="tb10" HorizontalAlignment="Left" Margin="75,320,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Style="{StaticResource style2}" Grid.Column="1" LostFocus="tb1_LostFocus" SelectionChanged="tb1_SelectionChanged"/>
 
     </Grid>
 </Window>
